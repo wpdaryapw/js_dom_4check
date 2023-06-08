@@ -1,0 +1,23 @@
+input[type="range"] {
+    -webkit-appearance: none;
+    border-radius: 5px;
+    background-image: linear-gradient(#e272d2, #c3819c);
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    height: 30px;
+    width: 30px;
+    border-radius: 70%;
+    background: #dea8f0;
+    cursor: ew-resize;
+    box-shadow: 0 0 2px 0 #cea5a5;
+    transition: background .3s ease-in-out;
+}
+
+input[type=range]::-webkit-slider-runnable-track  {
+    -webkit-appearance: none;
+    box-shadow: none;
+    border: none;
+    background: transparent;
+}
